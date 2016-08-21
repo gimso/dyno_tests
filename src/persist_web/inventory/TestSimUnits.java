@@ -7,6 +7,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import persist.inventory.SimUnits;
+
 /**
  * 
  * @author Dana
