@@ -20,7 +20,7 @@ import testrail.api.TestRailAPI;
 public class BeforeAndAfterSuits {
 
 	private static final String CLOUD = "CLOUD";
-	private static final String RUN_NAME = PropertiesUtil.getInstance().getProperty("TEST_RAIL_PERSIST_PLAN");
+	private static final String RUN_NAME = PropertiesUtil.getInstance("Resources/Dyno.properties").getProperty("TEST_RAIL_PERSIST_PLAN");
 	private static final String BASE_RUN_URL = "https://gimso.testrail.com/index.php?/runs/view/";
 	private static final String BASE_PLAN_URL = "https://gimso.testrail.com/index.php?/plans/view/";
 	/**
