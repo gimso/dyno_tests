@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Persist">
+	<test name="Persist Test">
+		<packages>
+			<package name="persist_web.config"/>
+			<package name="persist_web.inventory"/>
+			<package name="persist_web.trip"/>
+			<package name="persist_web.usage"/>
+		</packages>
+	</test>
+
+	<listeners>
+		<listener class-name="persist_web.config.TestNGListeners"/>
+	</listeners>
+</suite>

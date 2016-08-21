@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GateKeeper">
+	<test name="GateKeeper Tests">
+		<packages>
+			<package name="gate_keeper" />
+			<package name="gate_keeper.performance" />
+		</packages>
+	</test>
+	<!-- TODO add Listeners -->
+	<!-- <listeners> -->
+	<!-- <listener class-name="persist_api.config.TestNGListeners"/> -->
+	<!-- </listeners> -->
+</suite> 
+
+

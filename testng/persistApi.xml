@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Persist API">
+	<test name="Persist API Tests">
+		<packages>
+			<package name="persist_api.config"/>
+			<package name="persist_api.gcm"/>
+			<package name="persist_api.login"/>
+			<package name="persist_api.outgoingnumber"/>
+			<package name="persist_api.statusreport"/>
+			<package name="persist_api.oldstatusreport"/>
+			<package name="persist_api.trip"/>
+			<package name="persist_api.verificationcode"/>
+		</packages>
+	</test>
+	<listeners>
+		<listener class-name="persist_api.config.TestNGListeners"/>
+	</listeners>
+</suite> 
+
+

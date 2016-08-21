@@ -1,0 +1,55 @@
+{
+ "status": [
+   {
+     "phone_data": {
+       "battery": 100,
+       "call_state": "IDLE",
+       "charging": 0,
+       "data_state": "WIFI",
+       "device_id": "352148074388654",
+       "model": "SM-G920F",
+       "os_version": "5.1.1",
+       "reception": -103,
+       "version": "1.0.1"
+     },
+     "plug_data": {
+       "battery": 2,
+       "cloud_name": "staging.gimso.net",
+       "fw_status": 0,
+       "hsim_connection": false,
+       "hw_version": "2.0.0",
+       "mcc": 425,
+       "mnc": 1,
+       "plug_id": "000010002024",
+       "plug_status": 1,
+       "reception": -72,
+       "rsim": "+972543402082",
+       "sim_status": 3,
+       "sw_version": "0.7.1"
+     },
+     "service": {
+       "network": "ORANGE",
+       "network_name": "ORANGE2",
+       "plug_id": "000010002024",
+       "pte": 1432,
+       "uptime": "0.0",
+       "imsi":"12345",
+       "warnings": 524288
+     },
+     "timestamp": 1449499115,
+     "trip_id": 3,
+     "usage": {
+       "calls": {
+         "current": 10,
+         "total": 10,
+         "trip": 10
+       },
+       "data": {
+         "current": 5,
+         "total": 5,
+         "trip": 5
+       }
+     }
+   }
+ ]
+}

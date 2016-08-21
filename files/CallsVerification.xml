@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Calls Verification" parallel="none">
+  <test name="Verify that calls had arrived correctly">
+    <classes>
+      <class name="sip_simulator.TestCallsArrived"/>
+
+    </classes>
+ </test> <!-- Full user flow verification -->
+</suite> <!-- End To End -->
